@@ -1,7 +1,11 @@
 import { create } from 'zustand'
 
-export const useFormApp = create((set) => ({
+export const useFormApp = create((set, get) => ({
   form: {},
-  step: 5,
+  setFormValues: (stepMeta) => {    
+    return set({form: {...get().form, ...stepMeta}});
+  },
+  clearForm: () => set({form: {}}),
+  step: 0,
   setStep: (step) => set({ step }),
 }))

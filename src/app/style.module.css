@@ -1,3 +1,26 @@
 .wrapper {
     padding: 20px 30px;
 }
+
+.step1Wrapper {
+    position: relative;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.step1Img {
+    width: 50%;
+}
+
+.step1Form {
+    width: 330px;
+}
+
+.step1Button {
+    position: absolute;
+    bottom: -120px;
+    right: 0;
+}
+
