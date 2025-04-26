@@ -24,3 +24,22 @@
     right: 0;
 }
 
+.step4Wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.step4TitleRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.step4CardTitle {
+    padding: 5px 10px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 16px;
+    background: #91D5FF;
+}

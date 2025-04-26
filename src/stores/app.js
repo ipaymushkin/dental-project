@@ -6,6 +6,6 @@ export const useFormApp = create((set, get) => ({
     return set({form: {...get().form, ...stepMeta}});
   },
   clearForm: () => set({form: {}}),
-  step: 0,
+  step: 3,
   setStep: (step) => set({ step }),
 }))
